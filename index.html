@@ -1,0 +1,98 @@
+<html>
+  <html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Fleet Drive Sync</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+           max-width: 680px; margin: 3rem auto; padding: 0 1.1rem; line-height: 1.6; }
+    h1 { font-size: 1.6rem; margin-bottom: .2rem; }
+    .sub { opacity: .7; margin-top: 0; }
+    code { background: rgba(127,127,127,.18); padding: .1em .35em; border-radius: 4px; }
+    a { color: #2563eb; }
+    footer { margin-top: 2.5rem; font-size: .9rem; opacity: .7; }
+  </style> 
+  </head>
+  <body>
+    <h1>AI Fleet Drive Sync</h1>
+    <p class="sub">A private, single-user automation tool.</p>
+    
+    <p><strong>AI Fleet Drive Sync</strong> is a personal application operated by its owner to automate
+    file handling on the owner's own Google Drive. It uploads generated reports and documents to the
+    owner's Drive and reads the owner's own files for local processing. It is not a multi-user product
+    and is not offered to the public.</p>
+    
+    <h2>How it works</h2>
+    <ul>
+         <li>Authenticates to Google Drive via Google OAuth, using the <code>drive</code> scope, on the
+          owner's own Google account only.</li>
+      <li>OAuth tokens are stored locally on the owner's own machine and are never shared.</li>
+      <li>No third party receives any data; there is no analytics or tracking.</li>
+    </ul>
+    
+    <h2>Privacy</h2>
+    <p>See the <a href="https://deniskhouson-dotcom.github.io/gd-fleet-privacy/">Privacy Policy</a>.</p>
+    
+    <footer>Operated as a personal project. Contact: denis.khouson@gmail.com</footer>
+  </body>
+  </html>
+ 
+  Repo gd-fleet-privacy → index.html:
+  <!doctype html>
+  <html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Fleet Drive Sync — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+           max-width: 680px; margin: 3rem auto; padding: 0 1.1rem; line-height: 1.6; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.8rem; }
+    .updated { opacity: .7; }
+    a { color: #2563eb; }
+  </style>
+  </head>
+  <body>
+    <h1>Privacy Policy — AI Fleet Drive Sync</h1>
+    <p class="updated">Last updated: 15 October 2026</p>
+    
+    <p><strong>AI Fleet Drive Sync</strong> ("the app") is a private, single-user automation tool operated
+    by its owner. This policy explains how it handles data.</p>
+    
+    <h2>Who uses the app</h2>
+    <p>The app is used only by its owner, authenticating with the owner's own Google account. It is not
+    offered to, or used by, any other person.</p>
+    
+    <h2>What data the app accesses</h2>
+    <p>With the owner's explicit Google OAuth consent (scope
+    <em>https://www.googleapis.com/auth/drive</em>), the app reads and writes files in the owner's own
+    Google Drive solely to: upload files and reports the owner generates, and read files the owner
+selects for local processing. The app does not access any other person's data.</p>
+    
+    <h2>How data is stored and shared</h2>
+    <ul>
+      <li>OAuth credentials and tokens are stored locally on the owner's own computer.</li>
+      <li>No data is transmitted to, sold to, or shared with any third party.</li>
+      <li>The app performs no advertising, profiling, analytics, or tracking.</li>
+      <li>File contents are processed locally and are not sent to any external service by the app.</li>
+    </ul>
+    
+    <h2>Limited Use disclosure</h2>
+    <p>The app's use and transfer of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User
+    Data Policy</a>, including its Limited Use requirements.</p>
+    
+    <h2>Data retention and revocation</h2>
+    <p>Tokens persist locally until deleted by the owner. The owner can revoke the app's access at any
+    time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+    after which the app can no longer access the owner's Drive.</p>
+    
+    <h2>Contact</h2>
+    <p>Questions about this policy: denis.khouson@gmail.com</p>
+  </body>
+  </html>
+
